@@ -1,5 +1,11 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  padding: 0 40px;
+  align-items: center;
+  background-color: #0020f3;
 }
 
 .main {
